@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.txt{
+    margin-right: 50px;
+}
+.imagen{
+    width: 350px;
+    height: 250px;
+}

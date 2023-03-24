@@ -1,0 +1,61 @@
+.container{
+    width: 75vw;
+    max-width: 1000px;
+   min-width: 320px;
+   margin: auto;
+}
+.sobre-mi{
+    color: white;
+}
+
+.grid-intem:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 240px 240px 1000px;
+}
+.perfil{
+    position: relative;
+    width: 90%;
+    left: 0%;
+    border-radius: 100%;
+    top: -100px;
+}
+.yo{
+    font-weight: bold;
+}
+.acerca-mi{
+    position: absolute;
+    min-height: 250px;
+}
+@media (max-width: 576px){
+    .perfil{
+        position: relative;
+        width: 90%;
+        left: 0%;
+        border-radius: 100%;
+        top: -100px;
+    }
+    .acerca-mi{
+        position: absolute;
+        min-height: 450px;
+    }
+}
+@media (min-width: 575px){
+    .perfil{
+        position: relative;
+        width: 90%;
+        left: 0%;
+        border-radius: 100%;
+        top: -100px;
+    }
+    .yo{
+        display: flex;
+    }
+    .acerca-mi{
+        position: absolute;
+        min-height: 450px;
+    }
+}

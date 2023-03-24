@@ -1,0 +1,20 @@
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+@media screen and (max-width: 1200px){
+    .row{
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 600px){
+    .row{
+        width: 90%;
+        margin-left: 10%;
+    }
+}
